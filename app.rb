@@ -6,10 +6,10 @@ class App < Sinatra::Base
     erb :user_input
   end
   
-  post '/' do
+  post '/piglatinize' do
     
     
-    erb :results
+    erb :piglatinize
   end
   
 end
