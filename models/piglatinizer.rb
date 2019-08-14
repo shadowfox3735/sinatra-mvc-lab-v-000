@@ -4,4 +4,6 @@ class PigLatinizer
     input_str.split(" ").length == 1 ? piglatinize_word(input_str) : piglatinize_sentence(input_str)
   end
   
+  
+  
 end
