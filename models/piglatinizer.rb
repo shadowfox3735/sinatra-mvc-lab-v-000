@@ -31,5 +31,4 @@ class PigLatinizer
     sentence.split.collect { |word| piglatinize_word(word) }.join(" ")
   end
 
-  
 end
